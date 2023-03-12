@@ -1,0 +1,124 @@
+.cart{
+    display: flex;
+}
+
+.leftcart{
+    width:60%;
+}
+
+.rightcart{
+    height:700px;
+}
+
+.carttitle{
+    color: #2e8b57;
+    padding-top:40px;
+    padding-left:30px;
+}
+
+.cartimage{
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cartname{
+    color:#2e8b57;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.cartrate{
+    color:indigo;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.foodbox{
+    box-sizing: border-box;
+    border: solid #2e8b57;
+    border-width: 1.5px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top:20px;
+    display: flex;
+}
+
+
+.butn{
+    border: solid;
+    border-width: 1px;
+    border-color: #2e8b57;
+    color: #2e8b57;
+    background-color: rgba(0,0,0,0);
+    width:250px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+
+.butn:hover{
+    border:none;
+    background-color: #2e8b57;
+    color: #e6fffa;
+}
+
+.cartitemdetail{
+    width: 500px;
+}
+
+.changebutton{
+    
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.flat-surface-cart{
+    width: 20px;
+    height: 450px;
+    background-color: #2e8b57;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 30px;
+    
+}
+
+.butn{
+    width: 30px;
+    border-radius: 10px;
+}
+
+
+
+.ordercontents{
+    margin-top: 35px;
+    margin-left: 20px;
+    
+}
+
+.ordername{
+    color:#2e8b57;
+
+}
+
+.ordertotal{
+    color:#2e8b57;
+}
+
+.subtotal{
+    margin-top: 35px;
+    margin-left: 20px;
+}

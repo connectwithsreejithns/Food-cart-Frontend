@@ -1,0 +1,89 @@
+.userpage{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.userimagewrap{
+   margin-top: 20px;
+   width: 300px;
+   height: 350px;
+   background-color: #f9fbf9;
+   
+   position: relative;
+   
+}
+
+.userimagewrap:hover{
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.08);
+}
+
+.btn{
+    
+    height: 20px;
+}
+
+.userpagename{
+    color: #2e8b57;
+    top:180px;
+    left: 25px;
+}
+
+.userpageprice{
+    color: rgb(70, 10, 96);
+    top:220px;
+    left:25px;
+}
+
+.userpageimage{
+    top:15px;
+    width: 250px;
+    height:180px;
+    position: absolute;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.detail{
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn{
+    border: solid;
+    border-width: 1px;
+    border-color: #2e8b57;
+    color: #2e8b57;
+    background-color: rgba(0,0,0,0);
+    width:250px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    border:none;
+    background-color: #2e8b57;
+    color: #e6fffa;
+}
+
+/* Ripple effect */
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .ripple:hover {
+    background: #2e8b57 radial-gradient(circle, transparent 1%, #2e8b57 1%) center/15000%;
+  }
+  .ripple:active {
+    background-color: #53ab79;
+    background-size: 100%;
+    transition: background 0s;
+  }

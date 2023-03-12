@@ -1,0 +1,17 @@
+.adminlogin{
+    background-color: #2e8b57;
+    width:450px;
+    height:300px;
+    margin: 190px auto;
+    border-radius: 10px;
+}
+
+.adminform{
+    margin: 50px 10px;
+}
+
+.admintitle{
+    color: aliceblue;
+    margin-left: 50px;
+    padding-top: 30px;
+}

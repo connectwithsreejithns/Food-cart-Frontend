@@ -1,0 +1,8 @@
+.orderform{
+    background-color:aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 140px 500px 140px;
+    position: relative;
+}
+

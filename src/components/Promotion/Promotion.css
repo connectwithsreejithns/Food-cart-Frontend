@@ -1,0 +1,25 @@
+
+.promotion{
+    background-color: #2e8b57;
+    overflow: hidden;
+    
+    
+}
+
+.images{
+    display: flex;
+    overflow-y:scroll;
+}
+
+.promo-image{
+    padding: 40px;
+    height:300px;
+}
+
+.promo-image:hover{
+    transform: scale(1.03,1.03);
+}
+
+.images::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

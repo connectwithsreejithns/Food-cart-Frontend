@@ -1,0 +1,16 @@
+.footer{
+    background-color: #2e8b57;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    line-height: 30px;
+}
+
+h4{
+    color: white;
+}
+
+.goto:hover{
+    color: white;
+}

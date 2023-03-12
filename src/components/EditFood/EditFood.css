@@ -1,0 +1,10 @@
+.form{
+    
+    display: flex;
+    background-color: rgb(187, 237, 220);
+}
+
+.viewimage{
+    margin-top: 278px;
+    width: 30%;
+}

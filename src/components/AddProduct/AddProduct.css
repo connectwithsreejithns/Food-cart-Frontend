@@ -1,0 +1,32 @@
+.productform{
+    background-color: rgb(187, 237, 220);
+    padding: 10%;
+}
+
+
+    
+
+
+
+
+/* input::file-selector-button {
+    
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+} */
+
+
+#image{
+    display: none;
+}
+
+#labelimage{
+    color: green;
+    border:5px solid white;
+    padding: 6px;
+    
+}
+

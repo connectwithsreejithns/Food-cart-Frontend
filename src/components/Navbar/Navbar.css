@@ -1,0 +1,60 @@
+
+
+.navbar{
+    
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.08);
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.logo>h2{
+    font-size: 15px;
+    color:orangered;
+}
+
+.logo>h1{
+    font-size: 30px;
+    color:	#2e8b57;
+}
+
+.lists{
+    list-style-type: none;
+    display:inline-flex;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+
+
+li{
+    display: inline-flex;
+    gap:10px;
+    color: #2e8b57;
+    margin-right: 80px;
+}
+
+li:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+
+
+.gg-search{
+    margin-top:1px;
+}
+
+.gg-userlane{
+    margin-top:10px;
+}
+
+
+
+
